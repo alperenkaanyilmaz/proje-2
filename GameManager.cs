@@ -58,7 +58,7 @@ namespace AstroTestPort
 
         private void Render()
         {
-            // Konsol çıktısı ile basit bir render simülasyonu
+            
             Console.CursorVisible = false;
             Console.SetCursorPosition(0, 0);
             Console.WriteLine($"[{DateTime.Now:T}] Scene: {_scene.CurrentLevel} | Entities: {_scene.EntityCount}");
