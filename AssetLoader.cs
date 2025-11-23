@@ -13,7 +13,7 @@ namespace AstroTestPort
         public async Task InitializeAsync()
         {
             Console.WriteLine("AssetLoader: Başlatılıyor (paket analizi simülasyonu) ...");
-            // Gerçekte burada .pak/.uasset içeriği okunamaz; bu bir stub.
+            
             await Task.Delay(200);
             _cache["level:Main"] = "MainLevel.asset";
             _cache["mesh:player"] = "PlayerMesh.asset";
